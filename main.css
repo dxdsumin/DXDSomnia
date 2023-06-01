@@ -1,0 +1,18 @@
+*{
+    margin: auto 0;
+    padding: 0;
+}
+
+body {
+    -ms-overflow-style: none;
+    height:fit-content;
+    background-color: aqua;
+}
+
+img {
+    vertical-align: bottom;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}

@@ -1,0 +1,34 @@
+*{
+    margin: auto 0;
+    padding: 0;
+}
+
+body {
+    -ms-overflow-style: no;
+    height:fit-content;
+    background-color: aqua;
+}
+
+img {
+    vertical-align: bottom;
+}
+
+::-webkit-scrollbar {
+    display: none;
+        overflow: hidden;
+    height: 100%;
+}
+
+.top {
+    background: url("webproimg/proH.png"); no-repeat center fixed;
+    background-size: cover;
+    height: fit-content;
+}
+.pgmain {
+    width: 400px; height: 400px;
+    background-color: none;
+    border: none;
+    position: absolute;
+    top: 0%;
+    right: 38.5%;
+}
