@@ -6,7 +6,7 @@
 body {
     -ms-overflow-style: none;
     height:fit-content;
-    background-color: aqua;
+    background-color: rgba(0, 0, 0, 0.777);
 }
 
 img {
@@ -15,4 +15,32 @@ img {
 
 ::-webkit-scrollbar {
     display: none;
+}
+
+.button{
+    border: 0;
+    outline: 0;
+    list-style: none;
+
+}
+
+.top-nav{
+        position: fixed;
+        height: 20px;
+        width: 100%;
+        display: flex;
+        margin-top: 20px;
+        justify-content: flex-end;
+        z-index: 2;
+}
+
+li{
+    padding: 0.6rem;
+    text-align: center;
+}
+a{
+    color: white;
+}
+.lastBtn{
+    margin-right: 55px;
 }
